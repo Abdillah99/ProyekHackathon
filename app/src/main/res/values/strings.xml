@@ -1,0 +1,22 @@
+<resources>
+    <!-- string login xml-->
+    <string name="app_name">ProyekHackathon</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_daftar">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Masukkan Username Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <!--String sign up-->
+    <string name="register_welome">Masukkan Biodata anda</string>
+    <string name="title_activity_menu_utama_">MenuUtama_Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="#333333"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:paddingTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:alpha="0.7"
+            android:drawableLeft="@android:drawable/ic_popup_reminder"
+            android:background="@drawable/button_style"
+            android:text="@string/btn_login" android:drawableStart="@android:drawable/ic_popup_reminder" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:background="@drawable/button_style"
+            android:drawableLeft="@android:drawable/ic_menu_send"
+            android:text="@string/btn_daftar" android:drawableStart="@android:drawable/ic_menu_send" />
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:alpha="0.7"
+            android:drawableLeft="@android:drawable/ic_popup_reminder"
+            android:background="@drawable/button_style"
+            android:text="TES MASUK MENU" android:drawableStart="@android:drawable/ic_popup_reminder" />
+
+    </LinearLayout>
+
+</LinearLayout>
